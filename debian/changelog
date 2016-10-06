@@ -1,0 +1,6 @@
+bdsync (0.10-1) jessie-wikimedia; urgency=medium
+
+    * Initial release of bdsync
+    * This is built against gnutls as per upstream's 9c1d575a027 for licensing
+
+ -- Chase Pettet <cpettet@wikimedia.org>  Thu, 06 Oct 2016 16:05:20 +0000

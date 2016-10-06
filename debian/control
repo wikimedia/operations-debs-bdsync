@@ -1,0 +1,17 @@
+Source: bdsync
+Section: unknown
+Priority: extra
+Maintainer: Chase Pettet <cpettet@wikimedia.org>
+Build-Depends: debhelper (>= 9), libgnutls28-dev (>= 3.3.8-6+deb8u3)
+Standards-Version: 3.9.6
+Homepage: https://github.com/TargetHolding/bdsync
+
+Package: bdsync
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Synchronize block devices over a network.
+ It generates a "binary patchfile" in an efficient way by comparing
+ MD5 checksums of 32k blocks of the local block device LOCDEV and the
+ remote block device REMDEV.  This binary patchfile can be sent to the
+ remote machine and applied to its block device DSTDEV, after which
+ the local blockdev LOCDEV and the remote block device REMDEV are synchronized.

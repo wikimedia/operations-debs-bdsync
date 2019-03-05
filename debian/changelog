@@ -1,3 +1,9 @@
+bdsync (0.10-1+deb9u1) stretch-wikimedia; urgency=medium
+
+  * Rebuild for Stretch
+
+ -- Giovanni Tirloni <gtirloni@wikimedia.org>  Tue, 05 Mar 2019 14:44:16 +0000
+
 bdsync (0.10-1) jessie-wikimedia; urgency=medium
 
     * Initial release of bdsync

@@ -14,3 +14,6 @@
 
 override_dh_auto_build:
 	make CRYPTO=gnutls
+
+override_dh_dwz:
+	# This fails and I don't know why. Skip it!

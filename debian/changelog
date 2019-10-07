@@ -1,3 +1,14 @@
+bdsync (0.11.1-1~wmf1) buster-wikimedia; urgency=medium
+
+  * [02c3a60] d/watch: add file
+  * [a6210d6] d/source/format: add file
+  * [b058032] New upstream version 0.11.1
+  * [41b3d0a] d/control: refresh file
+  * [0799394] d/copyright: refresh file
+  * [f6022eb] src:bdsync: bump compat to debhelper 12
+
+ -- Arturo Borrero Gonzalez <aborrero@wikimedia.org>  Mon, 07 Oct 2019 13:09:02 +0200
+
 bdsync (0.10-1+deb9u1) stretch-wikimedia; urgency=medium
 
   * Rebuild for Stretch

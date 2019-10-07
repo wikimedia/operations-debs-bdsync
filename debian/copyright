@@ -1,4 +1,6 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: bdsync
+Source: https://github.com/TargetHolding/bdsync
 
 Files: debian/*
 Copyright: 2016 Wikimedia Foundation, Inc.
